@@ -192,7 +192,7 @@ while true; do
     disclaimer "./license.txt"
     refresh "Main Menu Selection"
     echo "Please select an option:"
-    select_option "Build OS86 for QEMU (.img)" "Clean /build" "Read License"
+    select_option "Build OS86 for QEMU (.img)" "Clean /build" "Read License" "Quick Build"
     choice=$?
 
     case $choice in
@@ -301,5 +301,12 @@ Hint: Is build an empty directory?";
         2)
             continue
             ;;
+        3)
+            clear
+            dd if=/dev/zero of=OS86.img bs=512 count=2880
+            nasm src/boot/ibmbios.s -o build/bootloader.bin
+            dd if=build/bootloader.bin of=OS86.img conv=notrunc bs=512 seek=0
+            qemu-system-i386 -fda OS86.img
+            exit 0
     esac
 done
