@@ -1,0 +1,18 @@
+The Safety License 1.0
+(C) 2025 Emily Jane Force
+
+1.A: Right to Modify
+    You are permitted to modify, extend, or adapt this software for any purpose. All modifications must comply with Section 2.A (Usage Rights).
+
+1.B: Right to Distribute
+    You are permitted to distribute this software in altered (or unaltered), whole (or in part) form across any platform, given the credits to the original GitHub repository exist and this license stays in its whole and unaltered form.
+    Distribution must comply with this license.
+
+2.A: Usage Rights
+    You may use this software for personal, educational, or commercial purposes, provided your use does not violate any applicable laws or this license.
+
+2.B: Prohibited Usage
+    This software may not be used to create or distribute:
+    - Malware, spyware, or other malicious software
+    - Software that infringes on the rights of others
+    - Software that misrepresents itself as the original project without attribution
