@@ -189,7 +189,7 @@ quit() {
 }
 
 while true; do
-    disclaimer "./docs/license.txt"
+    disclaimer "./license.txt"
     refresh "Main Menu Selection"
     echo "Please select an option:"
     select_option "Build OS86 for QEMU (.img)" "Clean /build" "Read License"
