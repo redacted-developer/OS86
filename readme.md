@@ -1,3 +1,4 @@
+(C) 2025 Emily Jane Force, The Safety License 1.0.
 # What is OS86?
 OS86 (version 0.1.0) is an in-development project kernel (modular) for 8086 machines, like IBM PC 5000-series.
 ## How are modules loaded?

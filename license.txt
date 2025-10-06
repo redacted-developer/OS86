@@ -16,3 +16,6 @@ The Safety License 1.0
     - Malware, spyware, or other malicious software
     - Software that infringes on the rights of others
     - Software that misrepresents itself as the original project without attribution
+
+3.A: Warranty
+    This software comes with no warranty, the author of this software is not responsible for any actions you perform with the software.
